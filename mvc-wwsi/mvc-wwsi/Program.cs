@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace mvcwwsi
+namespace powtorka
 {
     class MainClass
     {

@@ -7,10 +7,8 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="mvc-wwsi" expanded="True">
-            <Node name="powtorka" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+          <Node name="powtorka" expanded="True" selected="True">
+            <Node name="powtorka" expanded="True" />
           </Node>
         </State>
       </Pad>
