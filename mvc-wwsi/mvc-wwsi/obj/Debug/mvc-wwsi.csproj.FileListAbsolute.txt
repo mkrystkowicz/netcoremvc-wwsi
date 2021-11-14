@@ -1,0 +1,6 @@
+/Users/krisek/Desktop/WD/mvc-wwsi/mvc-wwsi/mvc-wwsi/bin/Debug/mvc-wwsi.exe
+/Users/krisek/Desktop/WD/mvc-wwsi/mvc-wwsi/mvc-wwsi/bin/Debug/mvc-wwsi.pdb
+/Users/krisek/Desktop/WD/mvc-wwsi/mvc-wwsi/mvc-wwsi/obj/Debug/mvc-wwsi.csproj.AssemblyReference.cache
+/Users/krisek/Desktop/WD/mvc-wwsi/mvc-wwsi/mvc-wwsi/obj/Debug/mvc-wwsi.csproj.CoreCompileInputs.cache
+/Users/krisek/Desktop/WD/mvc-wwsi/mvc-wwsi/mvc-wwsi/obj/Debug/mvc-wwsi.exe
+/Users/krisek/Desktop/WD/mvc-wwsi/mvc-wwsi/mvc-wwsi/obj/Debug/mvc-wwsi.pdb
