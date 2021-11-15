@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Library.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Library.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Domain.dll": {}
+        }
+      },
+      "Library.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Library.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Library.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Library.Domain/Library.Domain.csproj",
+      "msbuildProject": "../Library.Domain/Library.Domain.csproj"
+    },
+    "Library.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Library.Persistence/Library.Persistence.csproj",
+      "msbuildProject": "../Library.Persistence/Library.Persistence.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Library.Domain >= 1.0.0",
+      "Library.Persistence >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/krisek/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.ConsoleApp/Library.ConsoleApp.csproj",
+      "projectName": "Library.ConsoleApp",
+      "projectPath": "/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.ConsoleApp/Library.ConsoleApp.csproj",
+      "packagesPath": "/Users/krisek/.nuget/packages/",
+      "outputPath": "/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.ConsoleApp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/krisek/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/Library.Domain.csproj": {
+              "projectPath": "/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/Library.Domain.csproj"
+            },
+            "/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/Library.Persistence.csproj": {
+              "projectPath": "/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/Library.Persistence.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/bin/Debug/netcoreapp3.1/Library.Domain.deps.json
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/bin/Debug/netcoreapp3.1/Library.Domain.dll
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/bin/Debug/netcoreapp3.1/Library.Domain.pdb
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/obj/Debug/netcoreapp3.1/Library.Domain.csproj.AssemblyReference.cache
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/obj/Debug/netcoreapp3.1/Library.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/obj/Debug/netcoreapp3.1/Library.Domain.AssemblyInfoInputs.cache
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/obj/Debug/netcoreapp3.1/Library.Domain.AssemblyInfo.cs
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/obj/Debug/netcoreapp3.1/Library.Domain.csproj.CoreCompileInputs.cache
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/obj/Debug/netcoreapp3.1/Library.Domain.dll
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Domain/obj/Debug/netcoreapp3.1/Library.Domain.pdb

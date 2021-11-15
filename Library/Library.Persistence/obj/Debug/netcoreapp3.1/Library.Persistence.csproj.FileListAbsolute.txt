@@ -1,0 +1,13 @@
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/bin/Debug/netcoreapp3.1/Library.Persistence.deps.json
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/bin/Debug/netcoreapp3.1/Library.Persistence.dll
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/bin/Debug/netcoreapp3.1/Library.Persistence.pdb
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/bin/Debug/netcoreapp3.1/Library.Domain.dll
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/bin/Debug/netcoreapp3.1/Library.Domain.pdb
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/obj/Debug/netcoreapp3.1/Library.Persistence.csproj.AssemblyReference.cache
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/obj/Debug/netcoreapp3.1/Library.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/obj/Debug/netcoreapp3.1/Library.Persistence.AssemblyInfoInputs.cache
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/obj/Debug/netcoreapp3.1/Library.Persistence.AssemblyInfo.cs
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/obj/Debug/netcoreapp3.1/Library.Persistence.csproj.CoreCompileInputs.cache
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/obj/Debug/netcoreapp3.1/Library.Persistence.csproj.CopyComplete
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/obj/Debug/netcoreapp3.1/Library.Persistence.dll
+/Users/krisek/Desktop/WD/mvc-wwsi/Library/Library.Persistence/obj/Debug/netcoreapp3.1/Library.Persistence.pdb
