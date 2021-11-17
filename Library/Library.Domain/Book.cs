@@ -12,8 +12,6 @@ namespace Library.Domain
         public int ProductsAvailable { get; set; }
         public decimal Price { get; set; }
 
-        public Book() { }
-
         public Book(string title, string author, int publicationYear, string isbn, int productsAvailable, decimal price)
         {
             Title = title;

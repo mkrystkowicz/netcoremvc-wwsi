@@ -10,26 +10,26 @@ namespace Library.ConsoleApp
         {
             // Zadanie 1
 
-            Book book = new Book("Wzgórze psów", "Jakub Żulczyk", 2017, "9788380313507", 113, 29);
-            BooksRepository repository = new BooksRepository();
+            //Book book = new Book("Wzgórze psów", "Jakub Żulczyk", 2017, "9788380313507", 113, 29);
+            //BooksRepository repository = new BooksRepository();
 
             // Program skompilowal sie poprawnie
 
             // Zadanie 2
 
-            Console.WriteLine("Podaj login: ");
-            string login = Console.ReadLine();
-            Console.WriteLine("Podaj haslo: ");
-            string haslo = Console.ReadLine();
+            //Console.WriteLine("Podaj login: ");
+            //string login = Console.ReadLine();
+            //Console.WriteLine("Podaj haslo: ");
+            //string haslo = Console.ReadLine();
 
-            if (login == "Admin" && haslo == "password")
-            {
-                Console.WriteLine("Access Granted");
-            }
-            else
-            {
-                Console.WriteLine("Access Denied");
-            }
+            //if (login == "Admin" && haslo == "password")
+            //{
+            //    Console.WriteLine("Access Granted");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Access Denied");
+            //}
 
             // Program wykonuje sie poprawnie podczas podania login: Admin i haslo: password otrzymujemy komunikat: Access Granted
             // W przeciwnym razie Acces Denied
@@ -37,6 +37,9 @@ namespace Library.ConsoleApp
             // Zadanie 3
 
             string input = "";
+
+            BooksRepository booksRepository = new BooksRepository();
+            BooksService booksService = new BooksService(booksRepository);
 
             while (input != "wyjdz")
             {
@@ -53,19 +56,19 @@ namespace Library.ConsoleApp
 
                 if (input == "dodaj")
                 {
-                    Console.WriteLine("proba dodania ksiazki");
+                    booksService.AddBook();
                 }
                 else if (input == "usun")
                 {
-                    Console.WriteLine("proba usuniecia ksiazki");
+                    booksService.RemoveBook();
                 }
                 else if (input == "wypisz")
                 {
-                    Console.WriteLine("proba wypisania wszystkich ksiazek");
+                    booksService.ListBook();
                 }
                 else if (input == "zmien")
                 {
-                    Console.WriteLine("proba zmiany stany magazynowego ksiazek");
+                    booksService.ChangeState();
                 }
                 else if (input == "dodaj zamowienie")
                 {
