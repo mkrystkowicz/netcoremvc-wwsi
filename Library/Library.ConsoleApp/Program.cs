@@ -38,6 +38,8 @@ namespace Library.ConsoleApp
 
             string input = "";
 
+            OrdersRepository ordersRepository = new OrdersRepository();
+            OrderService orderService = new OrderService(ordersRepository);
             BooksRepository booksRepository = new BooksRepository();
             BooksService booksService = new BooksService(booksRepository);
 
@@ -72,11 +74,11 @@ namespace Library.ConsoleApp
                 }
                 else if (input == "dodaj zamowienie")
                 {
-                    Console.WriteLine("proba dodania nowego zamowienia");
+                    orderService.PlaceOrder();
                 }
                 else if (input == "lista zamowien")
                 {
-                    Console.WriteLine("proba wypisania wszystkich zamowien");
+                    orderService.ListAll();
                 }
             }
         }

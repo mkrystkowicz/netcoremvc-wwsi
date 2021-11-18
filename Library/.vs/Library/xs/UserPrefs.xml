@@ -1,19 +1,23 @@
 ﻿<Properties StartupConfiguration="{DC05785F-2884-4818-8367-E1A2580189F0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Library.ConsoleApp/BooksService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library.Domain/Order.cs">
     <Files>
       <File FileName="Library.Domain/Book.cs" Line="26" Column="10" IsPinned="True" />
-      <File FileName="Library.ConsoleApp/BooksService.cs" Line="38" Column="1" />
-      <File FileName="Library.Persistence/BooksRepository.cs" />
-      <File FileName="Library.ConsoleApp/Program.cs" />
+      <File FileName="Library.ConsoleApp/BooksService.cs" Line="43" Column="10" />
+      <File FileName="Library.Persistence/BooksRepository.cs" Line="1" Column="1" />
+      <File FileName="Library.ConsoleApp/Program.cs" Line="81" Column="38" />
+      <File FileName="Library.Domain/BookOrdered.cs" Line="4" Column="18" />
+      <File FileName="Library.Domain/Order.cs" Line="11" Column="42" />
+      <File FileName="Library.Persistence/OrdersRepository.cs" Line="21" Column="29" />
+      <File FileName="Library.ConsoleApp/OrderService.cs" Line="50" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Library" expanded="True">
-            <Node name="Library.ConsoleApp" expanded="True">
-              <Node name="BooksService.cs" selected="True" />
+            <Node name="Library.ConsoleApp" expanded="True" />
+            <Node name="Library.Domain" expanded="True">
+              <Node name="Order.cs" selected="True" />
             </Node>
-            <Node name="Library.Domain" expanded="True" />
             <Node name="Library.Persistence" expanded="True" />
           </Node>
         </State>

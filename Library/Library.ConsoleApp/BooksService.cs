@@ -54,5 +54,10 @@ namespace Library.ConsoleApp
 
             _repository.ChangeState(title, state);
         }
+
+        public BooksRepository ListAll()
+        {
+            return _repository;
+        }
     }
 }
